@@ -26,7 +26,7 @@ body{
   margin-bottom: 2rem;
 }
 button{
-  background-color: #FCAF02;
+  background: #FCAF02;
   cursor: pointer;
   border:none;
   text-align: center;
