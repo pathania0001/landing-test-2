@@ -152,16 +152,17 @@ button{
 
 
 .info-table th:nth-child(1){
-  width: 10%; 
+  width: 9.35%; 
 }
 
 .info-table th:nth-child(2){
-  width: 25%; 
+  width: 30.91%; 
 }
 
-.info-table th:nth-child(3){
-  width: 65%;
+.info-table th:nth-child(3) {
+  width: calc(100% - 9.35% - 30.91%);
 }
+
 
 .info-table tfoot{
     background-color: #FCAF02;
