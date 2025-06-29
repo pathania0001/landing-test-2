@@ -11,7 +11,7 @@
     <header class="navbar">
   <div class="container">
     <div class="nav">
-    <div class="logo">Start<span>up</span></div>
+    <button type="button" class="logo" onclick="location.href='?logo-pressed=true'; return false;">Start<span>up</span></button>
     <nav class="nav-links">
       <a href="#">Home</a>
       <a href="#">About Us</a>
@@ -30,7 +30,8 @@
       <h1>Startup Landing Page</h1>
       <p>ILorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
       </p>
-      <button class="btn-primary">Login</button>
+      <button class="btn-primary" onclick="location.href='?login-pressed=true'; return false;">Login</button>
+      
     </div>
     <div class="hero-image">
       <img src="https://i.ibb.co/b83W940/jeff-1-1.jpg" alt="Startup illustration">
@@ -41,7 +42,7 @@
 <!-- Contact US -->
     
     <section class="contact-us">
-        <form action="/" method="POST"  >
+        <form action="/" method="POST">
         <h1>Contact Us</h1>
         <div> <input id="name" placeholder="Name"> </div>
         <div> <input type="email" id="email" placeholder="Email"> </div>
@@ -50,7 +51,7 @@
             <input id="city" placeholder="City">
         </div>
         <div>
-            <button class="btn-primary"> Submit Form</button>
+            <button class="btn-primary" onclick="location.href='?submit-form-pressed=true'; return false;">Submit Form</button>
         </div>
         </form>
     </section>

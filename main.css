@@ -25,17 +25,19 @@ body{
   font-weight: 700;
   margin-bottom: 2rem;
 }
+button{
+  background-color: #FCAF02;
+  cursor: pointer;
+  border:none;
+  text-align: center;
+}
 
 .btn-primary {
   width: 323px;
   height: 66px;
   font-weight: 700;
   font-size: 32px;
-  border:none;
   border-radius: 500px;
-  background-color: #FCAF02;
-  cursor: pointer;
-  text-align: center;
   padding: 0;
 }
 
@@ -45,6 +47,7 @@ body{
 .logo , span{
   font-weight: 700;
   font-size: 32px;
+  padding: 0;
 }
 
 .logo span{
