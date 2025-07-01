@@ -116,8 +116,9 @@ button{
 .contact-us input{
     outline: none;
     background-color: #000;
-    border: 2px solid #FCAF02;
+    outline: 2px solid #FCAF02;
     width: 100%;
+    border: 2px solid #fcb10249;
     border-radius: 100px;
     padding: 1.5rem 3.375rem;
     color: #FCAF02;
@@ -126,6 +127,9 @@ button{
 }
  .contact-us input::placeholder{
     color: #FCAF02;
+ }
+ .contact-us input:focus{
+    outline: none;
  }
 /* --Analytics Section */
 
